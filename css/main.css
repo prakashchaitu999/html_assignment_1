@@ -268,6 +268,8 @@ textarea {
 
 
 body{
+  position: fix;
+  width: 100%;
 
 }
 .secondary li a img{
@@ -306,6 +308,9 @@ color: silver;
   width: 700px;
 
 }
+article {
+  font-family: sans-serif;
+}
  .grid_4 {
   width: 200px;
   height:400px;
@@ -326,7 +331,6 @@ footer {
   border-top:1px solid black;
   padding: -300px;
   margin-top: 20px;
-  background-color: red;
 margin-left: 200px;
 }
 .footer1 {
