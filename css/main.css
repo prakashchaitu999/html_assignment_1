@@ -268,7 +268,7 @@ textarea {
 
 
 body{
-  background: gray;
+
 }
 .secondary li a img{
   width:100px;
@@ -278,7 +278,7 @@ body{
 
 
 
-.meta {
+.nav {
   margin-top:10px;
   background: red;
   text-align: left;
@@ -287,17 +287,17 @@ body{
   position: relative;
   
 }
-.meta li {
+.nav li {
 
   display: inline;
   border-top: -20px;
 }
-.meta a{
+.nav a{
   top: 25px;
   text-decoration: none;
   padding: 20px;
 }
-.meta a:hover{
+.nav a:hover{
 color: silver;
 }
 .container_12 {
@@ -322,7 +322,15 @@ color: silver;
  
 
 }
+footer {
+  border-top:1px solid black;
+  padding: -300px;
+  margin-top: 20px;
+  background-color: red;
+margin-left: 200px;
+}
 .footer1 {
+  width: 200px;
 }
 .footer1 a {
   text-decoration: none;
@@ -332,10 +340,13 @@ color: silver;
   list-style: none;
 }
 .footer1 li a:hover {
-  color: gray;
+  color: rgb(59, 187, 33);
 
 }
 .footer2 {
+ 
+  padding-left: 100px;
+  width: 300px;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 20px;
@@ -348,6 +359,8 @@ color: silver;
   color: #000;
 }
 .footer3 {
+  padding-left: 200px;
+  width: 700px;
 }
 .footer3 li{
   list-style: none;
@@ -356,3 +369,8 @@ color: silver;
   margin-right: 10px;
   height: 42px;
 }
+
+
+
+
+
